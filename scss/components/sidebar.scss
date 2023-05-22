@@ -3,23 +3,23 @@
     flex-direction: column;
     gap: 50px;
     padding-right: 40px;
-    padding-top: 20px;
+    padding-top: 13px;
 }
 
 .category-title {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 10px;
+    padding-bottom: 18px;
     border-bottom: 1px solid #E7E5EA;
-    margin-bottom: 5px;
 }
 
 .category-title__title {
-    font-size: 18px;
-    font-weight: 500;
-    font-family: $fontPrimary;
     color: #2D3958;
+}
+
+.category-item {
+    padding-top: 15px;
 }
 
 .item-title {
@@ -32,7 +32,6 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-top: 15px;
 }
 
 .item-name__checkbox {
@@ -51,13 +50,10 @@
 
 .item-detail {
     padding-left: 30px;
-}
-
-.item-name {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-top: 15px;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
 }
 
 .brand-title {

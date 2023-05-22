@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-top: 40px;
+    padding: 40px 0 100px 0;
 }
 
 .pagination__item {
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    cursor: pointer;
 }
 
 .pagination__item--active {

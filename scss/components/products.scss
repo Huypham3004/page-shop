@@ -51,6 +51,7 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    text-decoration: none;
 }
 
 .product-item__image {
@@ -66,4 +67,8 @@
     font-weight: 500;
     font-family: $fontPrimary;
     color: #2D3958;
+}
+
+.product-item__price {
+    color: #7B88A8;
 }
